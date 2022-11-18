@@ -52,12 +52,49 @@ public class Vista {
     System.out.println(prueba.crear(vectorcon3));
     System.out.println(prueba.listar());
     
+    
+   
+   
+    
+    
+    
+   var vectorcon5=new String[7];
+   vectorcon5[0]="Evangelion";
+    vectorcon5[1]="3";
+    vectorcon5[2]="2003";
+    vectorcon5[3]="8";
+    vectorcon5[4]="10";
+    vectorcon5[5]="3";
+    vectorcon5[6]="Es una pelicula de ciencia ficion.";
+  
+  
+    
+    var pelicula1=new PeliculaControl();
+    System.out.println(pelicula1.crear(vectorcon5, prueba.listar()));
+    
+    
+    
+  //-------------------------------------------------------------------------------------------------------------
+  //-------------------------------------------------------------------------------------------------------------
     var eliminador=new String[1];
     eliminador[0]="Pablo escobar";
     System.out.println(prueba.eliminar(eliminador));
    System.out.println(prueba.listar());
    
-   var vectorcon4 =new String[5];
+   
+   var vectorcon6=new String[7];
+   vectorcon6[0]="Evangelion Revenge";
+    vectorcon6[1]="3";
+    vectorcon6[2]="2005";
+    vectorcon6[3]="8";
+    vectorcon6[4]="10";
+    vectorcon6[5]="4";
+    vectorcon6[6]="Es una pelicula de ciencia ficion donde se vengan.";
+    System.out.println(pelicula1.crear(vectorcon6, prueba.listar()));
+    
+    //-------------------------------------------------------------------------------------------------------------
+    //-------------------------------------------------------------------------------------------------------------
+    var vectorcon4 =new String[5];
     vectorcon4[0]="La Roca";
     vectorcon4[1]="Dwayne Jhnson";
     vectorcon4[2]="Protagonista";
@@ -72,27 +109,17 @@ public class Vista {
     System.out.println(prueba.modificar(modificador, prueba2));
     System.out.println(prueba.listar());
     
-    /*
-    
-   var vectorcon4=new String[7];
-   vectorcon4[0]="Evangelion";
-    vectorcon4[1]="3";
-    vectorcon4[2]="2003";
-    vectorcon4[3]="8";
-    vectorcon4[4]="10";
-    vectorcon4[5]="3";
-    vectorcon4[6]="Es una pelicula de ciencia ficion.";
-  
-    var vectorcon5=new PersonajeControl[3] ;
-    vectorcon5[0]=prueba1;
-    vectorcon5[1]=prueba2;
-    vectorcon5[2]=prueba3;
-    var pelicula1=new PeliculaControl();
-    System.out.println(pelicula1.crear(vectorcon4, vectorcon5));
+   var vectorcon7=new String[7];
+   vectorcon7[0]="Evangelion contrataca";
+    vectorcon7[1]="3";
+    vectorcon7[2]="2008";
+    vectorcon7[3]="8";
+    vectorcon7[4]="10";
+    vectorcon7[5]="3";
+    vectorcon7[6]="Es una pelicula de ciencia ficion donde contratacan.";
+
+    System.out.println(pelicula1.crear(vectorcon7, prueba.listar()));
     System.out.println(pelicula1.listar());
-    */
-    
-    
 }
      
 }
